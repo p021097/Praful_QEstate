@@ -31,6 +31,8 @@ export default function ListingsTableView({
   const endIndex = startIndex + itemsPerPage;
   const isAllSelected = selectedRows.length === itemsPerPage;
 
+  // Details Page
+
   // EDITING FUNCTIONS;
   const handleEdit = (item) => {
     setEditingItem(item);
@@ -238,6 +240,11 @@ export default function ListingsTableView({
                   >
                     Edit
                   </button>
+                </span>
+                <span>
+                  <a href={`/detail/${items.property_id}`}>
+                    <button> Details </button>
+                  </a>
                 </span>
               </td>
             </tr>

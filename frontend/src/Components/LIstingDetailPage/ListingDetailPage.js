@@ -62,6 +62,9 @@ export default function ListingDetailPage() {
                 </div>
               </div>
             </div>
+            <a href="/listings" className="detail-page-back">
+              <button className="back-button">Back</button>
+            </a>
           </>
         ) : (
           <div> "Details unavailable at the moment" </div>

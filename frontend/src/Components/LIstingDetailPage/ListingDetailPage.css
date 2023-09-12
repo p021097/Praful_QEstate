@@ -77,3 +77,14 @@
     width: 100%;
   }
 }
+
+.detail-page-back {
+  display: grid;
+  gap: 8px;
+}
+
+.back-button {
+  grid-column: 1 / 3;
+  background-color: aliceblue;
+  cursor: pointer;
+}
